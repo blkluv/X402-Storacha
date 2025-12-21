@@ -12,10 +12,7 @@
     "next": "15.5.8",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "axios": "^1.7.9",
-    "@storacha/client": "^1.0.0",
-    "@coinbase/cdp-sdk": "^1.40.1",
-    "multiformats": "^13.0.0"
+    "axios": "^1.7.9"
   },
   "devDependencies": {
     "@types/node": "^20",
