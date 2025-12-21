@@ -1,0 +1,26 @@
+{
+  "name": "x402-storacha-api",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node final-test.mjs"
+  },
+  "dependencies": {
+    "next": "15.5.8",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "axios": "^1.7.9",
+    "@storacha/client": "^1.0.0",
+    "@coinbase/cdp-sdk": "^1.40.1",
+    "multiformats": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}
