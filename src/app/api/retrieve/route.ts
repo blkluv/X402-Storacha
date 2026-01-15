@@ -42,7 +42,7 @@ export async function GET(request: NextRequest) {
     // Retrieve from Storacha
     const fileData = await retrieveFromStoracha(cid);
     
-    return new NextResponse(fileData, {
+   return new NextResponse(fileData as any,  {
       status: 200,
       headers: {
         'Content-Type': 'application/octet-stream',
