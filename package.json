@@ -6,18 +6,44 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "node final-test.mjs"
+    "test": "node final-test.mjs",
+    "prebuild": "npx update-browserslist-db@latest",
+    "postinstall": "npx browserslist@latest --update-db"
   },
   "dependencies": {
     "next": "^15.5.9",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "axios": "^1.7.9"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "axios": "^1.7.9",
+    "caniuse-lite": "^1.0.30001900"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "typescript": "^5"
-  }
+    "@types/axios": "^1.7.9",
+    "typescript": "^5",
+    "@next/bundle-analyzer": "^15.5.9"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "not ie > 0",
+      "not safari < 10",
+      "not android < 5",
+      "not ios < 10"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "packageManager": "npm@10.9.0"
 }
