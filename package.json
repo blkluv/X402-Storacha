@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "test": "node final-test.mjs",
-    "prebuild": "npx update-browserslist-db@latest",
-    "postinstall": "npx browserslist@latest --update-db"
+    "postinstall": "npx update-browserslist-db@latest"
   },
   "dependencies": {
     "next": "^15.5.9",
@@ -20,9 +19,13 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "typescript": "^5"
+    "typescript": "^5",
+    "caniuse-lite": "^1.0.30001900"
   },
   "engines": {
     "node": "24.x"
+  },
+  "overrides": {
+    "caniuse-lite": "^1.0.30001900"
   }
 }
