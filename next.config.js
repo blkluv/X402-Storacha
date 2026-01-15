@@ -1,6 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  serverExternalPackages: ['@coinbase/cdp-sdk'],
-};
+const nextConfig = {};
 
 export default nextConfig;
