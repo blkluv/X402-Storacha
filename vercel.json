@@ -1,8 +1,0 @@
-{
-  "buildCommand": "rm -rf node_modules && npm cache clean --force && npm install --force && npm run build",
-  "installCommand": "npm cache clean --force && npm install --force",
-  "env": {
-    "NPM_CONFIG_LEGACY_PEER_DEPS": "true",
-    "NPM_CONFIG_REGISTRY": "https://registry.npmjs.org/"
-  }
-}
