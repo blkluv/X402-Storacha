@@ -21,7 +21,6 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@types/axios": "^1.7.9",
     "typescript": "^5",
     "@next/bundle-analyzer": "^15.5.9"
   },
@@ -29,11 +28,7 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all",
-      "not ie > 0",
-      "not safari < 10",
-      "not android < 5",
-      "not ios < 10"
+      "not op_mini all"
     ],
     "development": [
       "last 1 chrome version",
@@ -42,8 +37,6 @@
     ]
   },
   "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=9.0.0"
-  },
-  "packageManager": "npm@10.9.0"
+    "node": "18.x"
+  }
 }
