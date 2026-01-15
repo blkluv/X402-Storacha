@@ -14,29 +14,15 @@
     "next": "^15.5.9",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "axios": "^1.7.9",
-    "caniuse-lite": "^1.0.30001900"
+    "axios": "^1.7.9"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "typescript": "^5",
-    "@next/bundle-analyzer": "^15.5.9"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "typescript": "^5"
   },
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   }
 }
